@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: fleetof/github-pages-deploy-action@master
+      uses: fleetof/github-action-demo@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
